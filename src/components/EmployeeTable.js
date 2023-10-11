@@ -24,7 +24,7 @@ export const EmployeeTable = () => {
         employeeService.getAllEmployees()
         .then(res => {
             console.log(res)
-           //setEmployees(res.data);
+           setEmployees(res.data);
         })
     }
 
